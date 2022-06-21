@@ -1,12 +1,12 @@
 import string
 import random
 n=list(string.digits)
-def generate_random_password():
-    length = int(input("Enter password length: "))
+def generate_random_pin():
+    length = int(input("Enter pin length: "))
     random.shuffle(n)
-    password = []
+    pin = []
     for i in range(length):
-        password.append(random.choice(n) )
-    random.shuffle(password)
-    print("".join(password))
-generate_random_password()
+        pin.append(random.choice(n) )
+    random.shuffle(pin)
+    print("".join(pin))
+generate_random_pin()
