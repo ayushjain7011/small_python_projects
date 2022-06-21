@@ -1,1 +1,3 @@
-
+a=input('enter the elements of list with a gap of spacebar')
+x=a.split()
+print('List:',x)
