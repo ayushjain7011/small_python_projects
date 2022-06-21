@@ -1,0 +1,7 @@
+dictionary={}
+m=int(input("enter the required number of keys and values"))
+for i in range(m):
+    n=input("Enter the Key")
+    k=input('Enter the Value')
+    dictionary[n]=k
+dictionary
