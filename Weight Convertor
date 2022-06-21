@@ -1,0 +1,9 @@
+w= int(input('What is your weight? '))
+c=input("IN Kg or Lb")
+d=c.lower()
+if d=='kg':
+    print("Your weight in pounds is:",(w*2.205))
+if d=='lb':
+    print('Your weight in pounds is:',(w/2.205))
+else:
+    print('Please enter Kgs or Lbs only')
